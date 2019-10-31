@@ -20,5 +20,5 @@ if (Number.isNaN(amount)) {console.log("Invalid")
 quarternumber++;}
 } else if (amount > dime){while(amount>dime){amount=amount-dime;
 dimenumber++;}} else if (amount > nickle){while(amount > nickle){amount=amount-nickle;
-nicklenumber++;} else if (amount > penny){while(amount > penny){amount=amount-penny;
+nicklenumber++;}} else if (amount > penny){while(amount > penny){amount=amount-penny;
 pennynumber++;}} else {console.log(""+quarternumber+" quarters, "+ dimenumber + " dimes, "+ nicklenumber +" nickles, and " + pennynumber +" pennies.");}
