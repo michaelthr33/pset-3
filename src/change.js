@@ -29,5 +29,5 @@ if (Number.isNaN(amount)) {console.log("Invalid")    // print your error message
         amount=amount-penny;
         pennynumber++;
   }
-}
-console.log(""+quarternumber+" quarters, "+ dimenumber + " dimes, "+ nickelnumber +" nickels, and " + pennynumber +" pennies.");
+
+console.log(""+quarternumber+" quarters, "+ dimenumber + " dimes, "+ nickelnumber +" nickels, and " + pennynumber +" pennies.");}
