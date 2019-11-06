@@ -5,3 +5,4 @@ const temperature = Number(readlineSync.question("Enter a temperature:  "))
 const scale =readlinesync.question("Enter a scale: ")
 const leapyearhundred = year%100;
 if (scale=="F"&temperature<=32){console.log("Liquid")}
+else if (scale=="K")
